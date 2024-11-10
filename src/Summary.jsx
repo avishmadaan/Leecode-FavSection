@@ -75,14 +75,16 @@ export function Summary() {
 
             <div className="grid  grid-rows-3 md:grid-cols-[calc(70%-2%)_calc(30%-2%)] gap-[2%] gap-y-2 ">
 
-                <div className="1st bg-lightGray row-span-3 p-5 text-center rounded-md shadow-md relative">
+                <div className="1st bg-lightGray row-span-3 p-5 pb-1 text-center rounded-md shadow-md relative">
 
-                    <div className="border-8 border-gray-200 h-[200px] w-[200px] rounded-full border-b-lightGray border-l-green-500 mx-auto  " ></div>
+                    <div className="border-8 border-gray-300 rounded-full border-b-lightGray border-l-green-500 mx-auto aspect-square  " ></div>
 
                     <div className="absolute  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <h1 className=""><span className="text-4xl font-bold ">2</span>/5</h1>
 
                         <h3 className="flex items-center justify-center gap-1 mt-1"><Check size="16" className="text-green-500" /> Solved</h3>
+
+                        <h3 className="text-xs text-gray-500 mt-8 absolute mx-auto   w-20 ">1 Attempting</h3>
                     </div>
                     
                     
